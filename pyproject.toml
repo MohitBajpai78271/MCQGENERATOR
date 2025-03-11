@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcqgenerator"
+version = "0.0.1"
+authors = [{ name = "Mohit Bajpai" }]
+description = "A package to generate MCQs"
+requires-python = ">=3.8"
+dependencies = [
+    "openai",
+    "langchain",
+    "streamlit",
+    "python-dotenv",
+    "PyPDF2"
+]
+
+[tool.setuptools]
+packages = ["mcqgenerator"]
+package-dir = { "" = "src" }

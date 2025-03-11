@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: mcqgenerator
+Version: 0.0.1
+Summary: A package to generate MCQs
+Author: Mohit Bajpai
+Requires-Python: >=3.8
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: PyPDF2

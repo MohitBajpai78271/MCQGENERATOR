@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+src/mcqgenerator/MCQGENERATOR.py
+src/mcqgenerator/__init__.py
+src/mcqgenerator/logger.py
+src/mcqgenerator/utils.py
+src/mcqgenerator.egg-info/PKG-INFO
+src/mcqgenerator.egg-info/SOURCES.txt
+src/mcqgenerator.egg-info/dependency_links.txt
+src/mcqgenerator.egg-info/requires.txt
+src/mcqgenerator.egg-info/top_level.txt
