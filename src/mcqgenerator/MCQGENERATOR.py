@@ -4,7 +4,7 @@ import pandas as pd
 import traceback
 from dotenv import load_dotenv
 from src.mcqgenerator.utils import read_file,get_table_data
-from src.mcqgenerator.logger import logging
+from src.mcqgenerator.logger import logger
 
 # from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
@@ -14,10 +14,13 @@ from langchain.chains import SequentialChain
 # 
 # import PyPDF2
 
+from dotenv import load_dotenv
 load_dotenv()
+apiKey = "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"
 
 apiKey = os.getenv("OPENAI_API_KEY") 
 llm = ChatOpenAI(openai_api_key=apiKey,model_name="gpt-3.5-turbo",temperature=0.5)
+
 
 
 
